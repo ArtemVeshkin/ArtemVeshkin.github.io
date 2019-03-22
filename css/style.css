@@ -2945,7 +2945,7 @@ h6 {
 ============================================================================================ */
 .pricing_area {
   position: relative;
-  padding: 120px 0 80px; }
+  padding: 10px 0 80px; }
 
 .pricing_item {
   background: -webkit-linear-gradient(to right, #114a95 0%, #9429bc 51%, #114a95 100%);
@@ -3861,6 +3861,117 @@ h6 {
       text-align: center; }
       .single-footer-widget .social_widget a:hover {
         background: #007ee5; }
+
+#mouse{
+    margin-top: -5em;
+    margin-bottom: 2em;
+    margin-left:auto;
+    margin-right:auto;
+    width:3.5em;
+    height:6em;
+    background-color:rgba(255,255,255,0);
+    border-radius: 100px;
+    border:2px solid white;
+}
+#wheel{
+    margin-top:1em;
+    margin-left:auto;
+    margin-right:auto;
+    width:0.75em;
+    height:0.75em;
+    background-color:white;
+    border-radius: 50%;
+}
+.scroll2{
+    opacity:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:0px;
+    height:0px;
+    border-left: 0.35em solid transparent;
+    border-right: 0.35em solid transparent;
+    border-top: 0.4em solid white;
+    -webkit-animation: down2 1s infinite;
+    animation: down2 1s infinite;
+}
+.scroll3{
+    opacity:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:0px;
+    height:0px;
+    border-left: 0.35em solid transparent;
+    border-right: 0.35em solid transparent;
+    border-top: 0.4em solid white;
+    -webkit-animation: down 1s infinite;
+    animation: down 1s infinite;
+}
+.scroll{
+    opacity:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:0px;
+    height:0px;
+    border-left: 0.35em solid transparent;
+    border-right: 0.35em solid transparent;
+    border-top: 0.4em solid white;
+    -webkit-animation: down3 1s infinite;
+    animation: down3 1s infinite;
+}
+@-webkit-keyframes down{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+        transform: translateY(2.3em);
+    }
+}
+@-webkit-keyframes down2{
+    40%{
+        opacity:0;
+    }
+    100%{
+        opacity:0.5;
+        transform: translateY(2.3em);
+    }
+}
+@-webkit-keyframes down3{
+    60%{
+        opacity:0;
+    }
+    100%{
+        opacity:0.2;
+        transform: translateY(2.3em);
+    }
+}
+@keyframes down{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+        transform: translateY(2.3em);
+    }
+}
+@keyframes down2{
+    40%{
+        opacity:0;
+    }
+    100%{
+        opacity:0.5;
+        transform: translateY(2.3em);
+    }
+}
+@keyframes down3{
+    60%{
+        opacity:0;
+    }
+    100%{
+        opacity:0.2;
+        transform: translateY(2.3em);
+    }
+}
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
