@@ -501,7 +501,7 @@ img {
     width: 100%; }
     .home_banner_area .banner_inner .home_left_img {
       padding-top: 140px;
-      padding-bottom: 140px; }
+      padding-bottom: 40px; }
     .home_banner_area .banner_inner .col-lg-6 {
       vertical-align: middle;
       align-self: center; }
@@ -3863,7 +3863,7 @@ h6 {
         background: #007ee5; }
 
 #mouse{
-    margin-top: -5em;
+    margin-top: 0em;
     margin-bottom: 2em;
     margin-left:auto;
     margin-right:auto;
